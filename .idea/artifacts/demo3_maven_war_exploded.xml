@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo3_maven:war exploded">
+    <output-path>$PROJECT_DIR$/demo3_maven/target/demo3_maven</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo3_maven" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.shuchen.test:demo2_maven:0.0.1-SNAPSHOT" />
+          <element id="archive" name="hello-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="hello" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/demo3_maven/target/demo3_maven/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="demo3_maven/web/Web" />
+    </root>
+  </artifact>
+</component>
